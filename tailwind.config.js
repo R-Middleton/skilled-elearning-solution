@@ -9,6 +9,8 @@ module.exports = {
       violetred: '#F74780',
       carnationpink: '#FFA7C3',
       white: '#FFFFFF',
+      orangegradientstart: '#FF6F48',
+      orangegradientstop: '#F02AA6',
     },
     fontFamily: {
       Jakarta: ['Plus Jakarta Sans', 'sans-serif'],
