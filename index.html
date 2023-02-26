@@ -20,40 +20,112 @@
 
     <title>Frontend Mentor | Skilled e-learning landing page</title>
   </head>
-  <body class="font-Jakarta bg-gradient-to-b from-white to-[#F0F1FF] via-white">
-    <nav class="w-full flex justify-between px-4 pt-4 items-center">
-      <b class="text-2xl text-bunting font-extrabold">skilled</b>
+  <body class="bg-gradient-to-b from-white via-white to-[#F0F1FF] font-Jakarta">
+    <nav class="flex w-full items-center justify-between px-4 pt-4">
+      <b class="text-2xl font-extrabold text-bunting">skilled</b>
       <button
         type="button"
-        class="bg-bunting text-white rounded-full px-6 pt-[9px] pb-[11px] font-bold leading-7"
+        class="rounded-full bg-bunting px-6 pt-[9px] pb-[11px] font-bold leading-7 text-white"
       >
         Get Started
       </button>
     </nav>
 
-    <h1 class="pt-9 pb-6 px-4 font-extrabold text-4xl text-bunting">
+    <h1 class="px-4 pt-9 pb-6 text-4xl font-extrabold text-bunting">
       Maximize skill, minimize budget
     </h1>
-    <h2 class="px-4 font-medium text-base leading-[26px] text-waterloo pb-6">
+    <h2 class="px-4 pb-6 text-base font-medium leading-[26px] text-waterloo">
       Our modern courses across a range of in-demand skills will give you the
       knowledge you need to live the life you want.
     </h2>
     <div class="pl-4">
       <button
         type="button"
-        class="rounded-full bg-gradient-to-b from-orangegradientstart to-orangegradientstop text-white px-9 py-4 font-bold"
+        class="rounded-full bg-gradient-to-b from-orangegradientstart to-orangegradientstop px-9 py-4 font-bold text-white"
       >
         Get Started
       </button>
     </div>
-    Check out our most popular courses! Animation Learn the latest animation
-    techniques to create stunning motion design and captivate your audience. Get
-    Started Design Create beautiful, usable interfaces to help shape the future
-    of how the web looks. Get Started Photography Explore critical fundamentals
-    like lighting, composition, and focus to capture exceptional photos. Get
-    Started Crypto All you need to know to get started investing in crypto. Go
-    from beginner to advanced with this 54 hour course. Get Started Business A
-    step-by-step playbook to help you start, scale, and sustain your business
-    without outside investment. Get Started Get Started
+    <div class="flex justify-center md:hidden">
+      <img src="./assets/image-hero-mobile.png" alt="hero" />
+    </div>
+    <div class="hidden md:block">
+      <img src="./assets/image-hero-desktop.png" alt="hero" />
+    </div>
+
+    <div
+      class="mx-4 mb-4 rounded-lg bg-gradient-to-b from-orangegradientstart to-orangegradientstop px-7 pt-6 pb-7 text-2xl font-extrabold text-white"
+    >
+      Check out our most popular courses!
+    </div>
+
+    <div class="mx-4 mt-10 rounded-lg">
+      <div class="px-7 pb-8 bg-white">
+        <img class="-translate-y-6" src="./assets/icon-animation.svg" alt="animation" />
+          <h3 class="pb-4 text-xl font-extrabold text-bunting">Animation</h3>
+          <p class="pb-6 font-medium leading-[26px] text-waterloo">
+            Learn the latest animation techniques to create stunning motion
+            design and captivate your audience.
+          </p>
+          <a class="pb-8 text-lg font-bold text-violetred">Get Started</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mx-4 mt-10 rounded-lg">
+      <div class="px-7 pb-8 bg-white">
+        <img class="-translate-y-6" src="./assets/icon-design.svg" alt="animation" />
+          <h3 class="pb-4 text-xl font-extrabold text-bunting">Design</h3>
+          <p class="pb-6 font-medium leading-[26px] text-waterloo">
+     Create beautiful, usable interfaces to help shape the future of how
+    the web looks.     </p>
+          <a class="pb-8 text-lg font-bold text-violetred">Get Started</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mx-4 mt-10 rounded-lg">
+      <div class="px-7 pb-8 bg-white">
+        <img class="-translate-y-6" src="./assets/icon-photography.svg" alt="animation" />
+          <h3 class="pb-4 text-xl font-extrabold text-bunting">Photography </h3>
+          <p class="pb-6 font-medium leading-[26px] text-waterloo">
+            Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.
+          </p>
+          <a class="pb-8 text-lg font-bold text-violetred">Get Started</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mx-4 mt-10 rounded-lg">
+      <div class="px-7 pb-8 bg-white">
+        <img class="-translate-y-6" src="./assets/icon-crypto.svg" alt="animation" />
+          <h3 class="pb-4 text-xl font-extrabold text-bunting">Crypto </h3>
+          <p class="pb-6 font-medium leading-[26px] text-waterloo">
+            All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.     </p>
+          <a class="pb-8 text-lg font-bold text-violetred">Get Started</a>
+        </div>
+      </div>
+    </div>
+    <div class="mx-4 mt-10 rounded-lg">
+      <div class="px-7 pb-8 bg-white">
+        <img class="-translate-y-6" src="./assets/icon-business.svg" alt="animation" />
+          <h3 class="pb-4 text-xl font-extrabold text-bunting">Business</h3>
+          <p class="pb-6 font-medium leading-[26px] text-waterloo">
+            A step-by-step playbook to help you start, scale, and sustain your business without outside investment.
+          </p>
+          <a class="pb-8 text-lg font-bold text-violetred">Get Started</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="flex items-center justify-between px-4 bg-bunting mt-20 py-9">
+      <b class="text-2xl font-extrabold text-white">skilled</b>
+      <button
+        type="button"
+        class="rounded-full bg-gradient-to-b from-bluegradientstart to-bluegradientstop px-6 pt-[9px] pb-[11px] font-bold leading-7 text-white"
+      >
+        Get Started
+      </button>
+    </footer>
   </body>
 </html>

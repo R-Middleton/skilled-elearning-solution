@@ -11,6 +11,8 @@ module.exports = {
       white: '#FFFFFF',
       orangegradientstart: '#FF6F48',
       orangegradientstop: '#F02AA6',
+      bluegradientstart: '#4851FF',
+      bluegradientstop: '#F02AA6',
     },
     fontFamily: {
       Jakarta: ['Plus Jakarta Sans', 'sans-serif'],
