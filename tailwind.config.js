@@ -8,9 +8,10 @@ module.exports = {
       waterloo: '#83869A',
       violetred: '#F74780',
       carnationpink: '#FFA7C3',
+      white: '#FFFFFF',
     },
     fontFamily: {
-      sans: ['Plus Jakarta Sans Extra Bold', 'sans-serif'],
+      Jakarta: ['Plus Jakarta Sans', 'sans-serif'],
     },
   },
   plugins: [],
